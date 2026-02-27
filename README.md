@@ -70,4 +70,10 @@ I'm always open to feedback or helping out with issues!
 
 ---
 
+## 📜 License
+
+This repository is licensed under the **MIT License**. Feel free to use, modify, and distribute the code as you see fit. See the [LICENSE](LICENSE) file for more details.
+
+---
+
 *Made with ❤️ by Surya Raj for the coding community.*
