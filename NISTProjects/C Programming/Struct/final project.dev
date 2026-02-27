@@ -1,0 +1,18 @@
+[Project]
+FileName=C:\MyCprograms\Struct\final project.dev
+Name=final project
+Use_gpp=1
+UnitCount=3
+ResFiles=C:\MyCprograms\Struct\rsrc.rc
+NoConsole=0
+IsDll=0
+Icon=C:\DEV-C_~1\Bin\Mainicon.ico
+[Unit1]
+FileName=C:\MyCprograms\project\hello1.c
+FileTime=897956101
+[Unit2]
+FileName=C:\MyCprograms\project\mylyb1.c
+FileTime=897956086
+[Unit3]
+FileName=C:\MyCprograms\project\mylib1.h
+FileTime=66688

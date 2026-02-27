@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Network Analyzer</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="container">
+        <h1 class="center">Network Analyzer</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="input-section">
+                <h2 class="center">Input</h2>
+                <div class="vertical-sections">
+                    <div class="configuration">
+                        <h3>Configuration</h3>
+                        <label for="s2p_file">Upload s2p File:</label>
+                        <input type="file" id="s2p_file" name="s2p_file" required>
+                        <label for="start_freq">Start Frequency:</label>
+                        <input type="text" id="start_freq" name="start_freq">
+                        <label for="stop_freq">Stop Frequency:</label>
+                        <input type="text" id="stop_freq" name="stop_freq">
+                    </div>
+                    <div class="calculation">
+                        <h3>Calculation</h3>
+                        <label for="measurement">Select Measurement:</label>
+                        <select id="measurement" name="measurement">
+                            <option value="Insertion Loss">Insertion Loss</option>
+                            <option value="Return Loss">Return Loss</option>
+                            <option value="Phase Response">Phase Response</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Analyze</button>
+            </div>
+        </form>
+        <div class="output-section">
+            <h2 class="center">Output</h2>
+            <div class="result">
+                <h3>Result</h3>
+                {% if result %}
+                    <p>Min Value: {{ result.min }}</p>
+                    <p>Max Value: {{ result.max }}</p>
+                    <p>Avg Value: {{ result.avg }}</p>
+                    <button onclick="document.getElementById('all-values').style.display='block'">View All Values</button>
+                    <div id="all-values" style="display:none;">
+                        <p>All Values: {{ result.values }}</p>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="graph">
+                <h3>Waveform/Graph</h3>
+                {% if graph %}
+                    <img src="data:image/png;base64,{{ graph }}" alt="Graph">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>
+ 

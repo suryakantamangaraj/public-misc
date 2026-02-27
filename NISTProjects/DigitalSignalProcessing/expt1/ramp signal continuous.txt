@@ -1,0 +1,17 @@
+clc;
+clear all;
+close all;
+hold on; 
+for t = -4:0.001:4
+    if t<0
+        plot(t,0,'k');
+    else
+        plot(t,t,'b');
+    end
+end
+title('Generation of Continuous Time Ramp Signal')
+grid on
+xlabel('t')
+ylabel('r(t)')
+axis([-3 3 -3 3])
+hold off

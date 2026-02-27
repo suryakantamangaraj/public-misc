@@ -1,0 +1,12 @@
+clc;
+clear all;
+close all;
+A=5;
+t= -10:0.0001:10;
+f=0.1;
+w=2*pi*f;
+x=A*sin(w*t);
+plot(t,x);
+xlabel('time in sec');
+ylabel('Amplitude');
+title('continous sine wave');

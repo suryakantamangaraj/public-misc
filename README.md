@@ -1,6 +1,6 @@
 # 🚀 Public-Misc: Curated Projects & Coding Practice
 
-Welcome to **Public-Misc**, a diverse collection of open-source projects, college assignments, and personal practice experiments. Whether you're looking for inspiration for your next **"good first project"**, need help with **homework assignments**, or want to explore **useful Python utilities**, this repository is a curated treasure trove of code.
+Welcome to **Public-Misc**, a diverse collection of open-source projects, college assignments, and personal practice experiments. This repository is a curated treasure trove of code, ranging from automation scripts to full-scale web projects.
 
 [![GitHub license](https://img.shields.io/github/license/suryakantamangaraj/public-misc?style=flat-alpha)](https://github.com/suryakantamangaraj/public-misc/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/suryakantamangaraj/public-misc?style=flat-alpha)](https://github.com/suryakantamangaraj/public-misc/stargazers)
@@ -10,43 +10,41 @@ Welcome to **Public-Misc**, a diverse collection of open-source projects, colleg
 
 ## 📖 Overview
 
-This repository serves as a personal archive for projects I've built during my coding journey. It includes everything from **college projects** to **modern web layouts** and **system automation scripts**. My goal is to keep these projects accessible for others to learn from, build upon, or use as a reference for their own work.
+This repository serves as a personal archive for projects I've built during my coding journey. It includes everything from **college projects** to **modern web layouts** and **system automation scripts**.
 
 ### Why Explore This Repo?
 - **Beginner Friendly:** Great examples for students looking for their first coding projects.
-- **Diverse Range:** Covers Python automation, web design, and system monitoring.
-- **Problem Solving:** Real-world utilities like YouTube downloaders and PC health trackers.
-- **Practice Material:** Perfect for practicing cloning, debugging, and enhancing existing codebases.
+- **Diverse Categories:** Covers Python automation, IoT, Web development, and Competitive Programming.
+- **Real-world Utilities:** Tools for system monitoring, screenshot automation, and media downloading.
+- **Academic Reference:** Includes projects from NIST and digital communication studies.
 
 ---
 
-## 🛠 Project Showcase
+## 🛠 Project Hub
 
-Here are some of the cool projects you'll find inside:
+The projects are organized into several key categories:
 
-### 1. 🐍 Take a Screenshot using Python
-A simple yet powerful script to capture screenshots programmatically.
-- **Tech Stack:** Python, PyAutoGUI.
-- **Use Case:** Automating documentation or creating monitoring tools.
+### 🐍 Python Utilities
+Located in the [PythonProjects](./PythonProjects) directory:
+- **[Take a Screenshot](./PythonProjects/Take%20a%20Screenshot%20using%20Python):** Capture screenshots programmatically using PyAutoGUI.
+- **[YouTube Downloader](./PythonProjects/youtube%20downloader):** A simple script to download YouTube videos in audio format.
+- **[PC Health Checkup](./PythonProjects/PCHealthCheckup):** Monitor system performance and diagnostics.
+- **[PC User Tracking](./PythonProjects/PCUserTracking):** Activity monitoring for session logging.
 
-![Screenshot Demo](/Images/screenshot_new.png)
+### 🌐 Web & Layout Design
+- **[Smart Farming Website](./SmartFarming):** A complete web project for modern agricultural solutions.
+- **[Simple Portfolio](./SimplePortfolio):** A clean and responsive portfolio template.
+- **[Classical Newspaper](./PythonProjects/ClassicalNewsPaperFormat):** A creative CSS layout replicating a vintage newspaper.
 
-### 2. 🎵 YouTube Downloader
-A utility program to download YouTube videos directly.
-- **Tech Stack:** Python.
-- **Feature:** Capability to download and save in audio format.
+### 📉 Academic & Analysis
+- **[NIST Projects](./NISTProjects):** A massive collection of academic projects and research-related code.
+- **[Network Analyzer](./NetworkAnalyzer):** A technical tool for monitoring network traffic and analysis.
+- **[Digital Communication](./PythonProjects/DigitalCommunication):** Scripts focused on communication systems and signal processing.
 
-### 3. 📰 Classical Newspaper Format
-A creative web project that replicates the vintage look of a classical newspaper.
-- **Tech Stack:** HTML, CSS.
-- **Ideal for:** Learning complex CSS grid and flexbox layouts.
-
-### 4. 🏥 PC Health Checkup
-A system utility tool designed to monitor and report on your computer's health status.
-- **Focus:** System diagnostics and performance.
-
-### 5. 🕵️ PC User Tracking
-A project focused on monitoring user activity or session logs for security and tracking purposes.
+### 💡 Specialty Tools
+- **[Spotify Playing](./SpotifyPlaying):** Integration tools for tracking currently playing Spotify tracks.
+- **[LeetCode Solutions](./LeetCode):** A dedicated section for solved competitive programming problems.
+- **[Resume](./Resume):** Source files and templates for professional resumes.
 
 ---
 
