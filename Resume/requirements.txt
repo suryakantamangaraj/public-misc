@@ -1,2 +1,2 @@
 markdown
-weasyprint==53.0
+weasyprint==68.0
