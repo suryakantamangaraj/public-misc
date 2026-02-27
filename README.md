@@ -2,7 +2,7 @@
 
 Welcome to **Public-Misc**, a diverse and SEO-friendly collection of **open-source projects**, **college assignments**, **Python automation tools**, and **creative web layouts**. This repository is designed as a one-stop resource for developers looking for "good first projects," source code examples, and student homework inspiration.
 
-[![GitHub license](https://img.shields.io/github/license/suryakantamangaraj/public-misc?style=flat-alpha)](https://github.com/suryakantamangaraj/public-misc/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/suryakantamangaraj/public-misc?style=flat-alpha)](https://github.com/suryakantamangaraj/public-misc/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/suryakantamangaraj/public-misc?style=flat-alpha)](https://github.com/suryakantamangaraj/public-misc/stargazers)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Suryaraj.me-blue?style=flat-alpha)](https://suryaraj.me)
 
